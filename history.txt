@@ -1,0 +1,93 @@
+    1  git status
+    2  cd git-basic-exercises
+    3  git status
+    4  git add README.md
+    5  git commit
+    6  git status
+    7  git log
+    8  git checkout history
+    9  git merge main
+   10  git remote add origin https://github.com/Cyarein1/git-basic-exercises.git
+   11  git branch -M main
+   12  git push -u origin main
+   13  git remote add origin https://github.com/Cyarein1/git-basic-exercises.git
+   14  git branch -M main
+   15  git push -u origin main
+   16  git checkout main
+   17  git checkout milkshake-flavours
+   18  git push -u git-basic-exercises milkshake-flavours
+   19  git push -u origin milkshake-flavours
+   20  git checkout history
+   21  git checkout main
+   22  git branch
+   23  cd ..
+   24  rm -rf git-basic-exercises
+   25  git init git-basic-exercises
+   26  cd git-basic-exercises
+   27  touch README.md
+   28  git add .
+   29  git commit -m "initial commit"
+   30  nano README.md
+   31  git add .
+   32  git commit -m "second commit"
+   33  nano README.md
+   34  git add .
+   35  git commit -m "third commit"
+   36  git branch milkshake-flavours
+   37  git checkout milkshake-flavours
+   38  nano milkshakes.md
+   39  git add .
+   40  git commit -m "added initial flavours"
+   41  git checkout main
+   42  git branch history
+   43  git checkout history
+   44  history > history.txt
+   45  git add .
+   46  git commit -m "added history"
+   47  git checkout milkshake-flavours
+   48  nano milkshakes.md
+   49  nano README.md
+   50  git add README.md
+   51  git commit -m "random readme changes"
+   52  git checkout history
+   53  rm README.md
+   54  echo "booya" > README.md
+   55  git add .
+   56  git commit -m "rewrote readme"
+   57  git checkout main
+   58  git merge milkshake-flavours
+   59  git merge history
+   60  git add .
+   61  git commit -m "merged history branch into main"
+   62  git checkout history
+   63  git merge main
+   64  git remote add origin https://github.com/Cyarein1/git-basic-exercises.git
+   65  git branch -M main
+   66  git push -u origin main
+   67  git checkout history
+   68  cd ..
+   69  rm -rf git-basic-exercises
+   70  clear
+   71  git init git-basic-exercises
+   72  touch README.md
+   73  git add .
+   74  cd git-basic-exercises
+   75  touch README.md
+   76  git add .
+   77  git commit -m git commit -m "initial commit"
+   78  git commit -m "initial commit"
+   79  nano README.md
+   80  git add .
+   81  git commit -m "second commit"
+   82  nano README.md
+   83  git add .
+   84  git commit -m "third commit"
+   85  git branch milkshake-flavours
+   86  git checkout milkshake-flavours
+   87  nano milkshakes.md
+   88  git add .
+   89  git commit -m "added initial flavours"
+   90  git checkout main
+   91  git branch history
+   92  git checkout history
+   93  history > history.txt
